@@ -1,4 +1,4 @@
-path_to_image = "C:\Users\serge\Documents\MATLAB\Screenshot 2024-01-03 113632.png";
+path_to_image = ".\img_duplo.png";
 
 [img_rgb, map]  = imread(path_to_image); % Liest das RGB-Bild von der Festplatte
 
