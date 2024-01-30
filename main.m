@@ -1,6 +1,5 @@
 % main.m - Hauptskript zur Analyse der LEGO-Steine
 
-% Bereinige die Umgebung und schließe alle offenen Figuren
 clc;
 clearvars;
 close all;

@@ -8,4 +8,5 @@ function [cc, num] = findLegos(mask)
     % Finde verbundene Komponenten
     cc = bwconncomp(cleanMask);
     num = cc.NumObjects;
+    fprintf('Anzahl der LEGO-Steine: %d\n', num);
 end
