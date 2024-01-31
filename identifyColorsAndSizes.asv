@@ -2,8 +2,8 @@
 
 function [stoneColors, stoneSizes] = identifyColorsAndSizes(hue, cc)
     % Definiere die Hue-Bereiche für die Farben
-    hueRanges = [350, 10; 10, 40; 40, 60; 60, 160; 160, 180; 180, 250; 250, 350];
-    colors = {'Rot', 'Orange', 'Gelb', 'Grün', 'Cyan', 'Blau', 'Magenta'};
+    hueRanges = [350, 10; 10, 40; 40, 60; 60, 160; 160, 180; 180, 250];
+    colors = {'Rot', 'Orange', 'Gelb', 'Grün', 'Cyan', 'Blau'};
     
     % Arrays zum Speichern der Farben und Größen
     stoneColors = cell(cc.NumObjects, 1);

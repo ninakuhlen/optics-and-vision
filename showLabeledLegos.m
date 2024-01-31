@@ -1,4 +1,4 @@
-% showLabeledLegos.m - Funktion zur Anzeige der LEGO-Steine mit Größenangabe im Figurentitel
+% showLabeledLegos.m - Funktion zur Anzeige der LEGO-Steine mit Klassifizierung im Figurentitel
 
 function showLabeledLegos(img_rgb, cc, stoneColors, stoneSizes)
     % Durchlaufe alle identifizierten LEGO-Steine
